@@ -7,46 +7,54 @@
 </head>
 
 <body>
-    <h1 style="float:left">"Global Warming" Project Detailed Report</h1>
-    <table class="gridtable">
-        <colgroup>
-            <col style="width: 150px;" />
-            <col />
-        </colgroup>
-        <tr>
-            <th>Project Group Name</th>
-            <td>18676138_023Q7-CAMP-Global-Warming-PDC_Estimate</td>
-        </tr>
-        <tr>
-            <th>Project Group #</th>
-            <td>5911769</td>
-        </tr>
-        <tr>
-            <th>Scope</th>
-            <td>Global</td>
-        </tr>
-        <tr>
-            <th>Report Created On</th>
-            <td id="report-created">-</td>
-        </tr>
-        <tr>
-            <th>Full Climate Estimation Period:</th>
-            <td id="estimation-period">-</td>
-        </tr>
-    </table>
+    <header class="header">
+        <h1 style="float:left">"Global Warming" Project Detailed Report</h1>
+        <table class="gridtable">
+            <colgroup>
+                <col style="width: 150px;" />
+                <col />
+            </colgroup>
+            <tr>
+                <th>Project Group Name</th>
+                <td>18676138_023Q7-CAMP-Global-Warming-PDC_Estimate</td>
+            </tr>
+            <tr>
+                <th>Project Group #</th>
+                <td>5911769</td>
+            </tr>
+            <tr>
+                <th>Scope</th>
+                <td>Global</td>
+            </tr>
+            <tr>
+                <th>Report Created On</th>
+                <td id="report-created">-</td>
+            </tr>
+            <tr>
+                <th>Full Climate Estimation Period:</th>
+                <td id="estimation-period">-</td>
+            </tr>
+        </table>
+    </header>
 
-    <div id="neuro-status">NeuroNet Status: Awaiting...</div>
-    <div id="result-data" class="graph"></div>
-    <div class="datatables">
+    <main class="main">
 
-        <!-- First file content -->
-        
-        <!-- Second file content -->
+        <section class="neuro-result">
+            <div id="neuro-status">NeuroNet Status: Launching...</div>
+            <div id="result-data" class="graph"></div>
+        </section>
 
-        <!-- Third file content -->
-    </div>
+        <section class="datatables">
+
+        </section>
+
+    </main>
+
+    <footer class="app-footer">
+        <div class="app-version">Version: 1.0.0</div>
+        <div class="app-author">By Leo</div>
+    </footer>
 </body>
 
 <script type="module" src="./main.js"></script>
-<script src="./version.js"></script>
 </html>
